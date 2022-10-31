@@ -13,6 +13,7 @@ export default function Home() {
       <div>
         <Hero />
         <FlexItems />
+        
         <FlexColumns />
         <FlexIcons />
         <FlexColumns_ />
