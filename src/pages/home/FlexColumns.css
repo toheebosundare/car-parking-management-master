@@ -4,7 +4,7 @@
 .flex-columns .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  
   width: 100%;
 
 }
@@ -120,4 +120,17 @@
 
 .flex-columns_ p {
   margin: 20px 0;
+}
+
+
+@media (max-width: 700px) {
+  .flex-columns .column {
+    flex-wrap: wrap;
+    width: 20%;
+  }
+  .flex-columns .row {
+    
+    width: 100%;
+  }
+
 }
